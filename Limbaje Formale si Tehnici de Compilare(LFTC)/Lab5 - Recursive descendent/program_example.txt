@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main()
+{
+	float n ;
+	float i ;
+	float sum ;
+	float a ;
+	i = 1 ;
+	sum = 0 ;
+	while ( i <= n )
+	{
+		cin>> a ;
+		sum = sum + a ;
+		i = i + 1 ;
+	}
+	cout<< sum ;
+	return 0 ;
+}

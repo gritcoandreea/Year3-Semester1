@@ -1,0 +1,31 @@
+The file that describes the finite automata is a txt file which contains:
+
+1. states : a list of states separated by ","
+        -example format  :   " states : q1,q2,q3"
+2. alphabet : a string of supported characters
+        - example format : "alphabet: abcdef"
+        -it doesn't matter if the characters are repeated, because we store
+            the alphabet as a set
+
+3. initial_state: a state
+        - example format: "initial_state : q0"
+
+4. final_states : a list of states separated by ","
+        - example format: "final_states: q0,q1"
+
+5. transitions : multiple rows containing transitions of the form:
+                    t(left_state, alphabet_literal) = result_state
+
+         -example format : "transitions:
+                            t(q0,a)=q1
+                            t(q1,a)=q2"
+
+example of FA:
+
+states : q0,q1,q2
+alphabet : abcdefghijklmnopqrstuvwxyz
+initial_state : q0
+final_states : q2
+transitions :
+t(q0,a)=q1
+t(q1,a)=q2

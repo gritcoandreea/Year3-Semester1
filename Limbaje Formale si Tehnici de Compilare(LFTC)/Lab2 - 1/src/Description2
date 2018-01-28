@@ -1,0 +1,21 @@
+States are represented as a set of Strings : Set<String>
+-example : a state can be for example "q0" => set of states: (q1,q2,q3)
+-I chose a set because the states must be unique , we cannot have two states with the same name in a FA
+
+Initial states is represented as a String.
+
+Final states are represented as a set of Strings : Set<String>
+-example : a final state can be "q1" => set of states: (q1,q2)
+-I chose a set because the final states must be unique , the same as the list of states.
+
+A transition is an object which contains the left state of a transition, the symbol and the result state of a transition.
+The list of transitions is represented as a set of transitions.
+In this way we can store multiple transitions with the same leftState and symbol ( the case in which a FA is not deterministic).
+
+The alphabet is represented as a set of symbols : Set<String>
+A symbol is represented as a String, which is a character actually (my bad :) )
+I chose String because I work all the time with string, but when I read from file I read character by character.
+
+The alphabet is a collection of symbols which define a word, number, etc.
+The alphabet is a collection of symbols which are an underlying base set for what we are trying to determine with our automata
+,for example  a string,number, etc.

@@ -1,0 +1,10 @@
+In C++ integer literals can be:
+-for decimal literal integer: a number from 1-9 followed by several numbers from 0-9
+-for octal literal integer : - prefix : 0 followed by several numbers from 0-7
+-for hexa literal integer : -prefix : 0x or 0X followed by several leters/numbers from : 0-9, a-f A-F
+-for binary literal integer: -prefix 0b or 0B followed by several numbers from 0-1
+
+-suffix u or U for unsigned
+-suffix l or L for long (ll or LL)
+
++,- for number sign and . for float numbers

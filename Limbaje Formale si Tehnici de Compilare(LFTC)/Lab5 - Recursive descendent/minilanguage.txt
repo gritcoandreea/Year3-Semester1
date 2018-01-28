@@ -1,0 +1,21 @@
+program: imports int main() body
+imports: import | import imports
+import: #include library
+library: <iostream>
+body: { statementlist return 0; }
+statementlist: statement | statement statementlist
+statement: declaration | assignment | conditional | loop | input | output
+declaration: type variables ;
+type: int | float | array
+array: int[constant]
+variables: variable | variable variables
+variable: ID
+assignment: variable = expression ;
+expression: variable | constant | expression operator expression ;
+operator: + | - | * | /
+conditional: if ( condition ) { statementlist }
+condition: expression logicaloperand expression
+logicaloperand: < | > | <= | >= | == | !=
+loopstatement: while ( condition ) { statementlist }
+input: cin >> variable ;
+output: cout << variable ;

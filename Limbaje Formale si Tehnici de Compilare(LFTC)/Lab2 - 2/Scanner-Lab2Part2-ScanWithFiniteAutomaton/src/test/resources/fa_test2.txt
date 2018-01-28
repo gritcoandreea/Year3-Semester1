@@ -1,0 +1,9 @@
+INITIAL:
+q0
+FINAL:
+q0
+TRANSITIONS:
+q0 q1 a
+q1 q1 a
+q1 q2 a b
+q2 q0 c

@@ -1,0 +1,9 @@
+output encoder:
+-rgb -> yuv
+-un vector dematrici 8x8 pentru luminanta
+-uun vector cu matrici 4x4 (pentru blue)
+-un vector cu matrici 4x4(pentru red)
+
+decoder:
+-parametrii cei de la encoder
+-yuv-> rgb 

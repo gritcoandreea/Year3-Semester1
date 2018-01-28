@@ -1,0 +1,29 @@
+INITIAL:
+q0
+FINAL:
+q1 q2 q3 q4 q5 q6 q7 q8 q9 q12 q13
+TRANSITIONS:
+q0 q1 1 2 3 4 5 6 7 8 9
+q1 q1 0 1 2 3 4 5 6 7 8 9
+q1 q6 u U
+q6 q12 l L
+q12 q13 l L
+q1 q7 l L
+q7 q8 l L
+q7 q9 u U
+q8 q9 u U
+q0 q2 0
+q2 q3 0 1 2 3 4 5 6 7
+q3 q3 0 1 2 3 4 5 6 7
+q3 q6 u U
+q3 q7 l L
+q2 q10 x X
+q10 q4 0 1 2 3 4 5 6 7 8 9 a b c d e f A B C D E F
+q4 q4 0 1 2 3 4 5 6 7 8 9 a b c d e f A B C D E F
+q4 q6 u U
+q4 q7 l L
+q2 q11 b B
+q11 q5 0 1
+q5 q5 0 1
+q5 q6 u U
+q5 q7 l L

@@ -1,0 +1,14 @@
+#include<iostream>
+int main(){
+
+	int A,B;
+
+	A=2;
+	std::cin>>AAA;
+	std::cout<<"aaaa";
+	while(A<2)
+	{
+		A=4;
+	}
+	return 0;
+}

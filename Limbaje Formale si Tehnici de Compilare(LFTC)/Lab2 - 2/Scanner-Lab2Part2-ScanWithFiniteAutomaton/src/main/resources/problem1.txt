@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std ;
+int main() {
+    float a , p , r ;
+    const float pi = 3.14 ;
+    cin >> r ;
+    a = pi * r * r ;
+    cout  << a ;
+    p = 2 * pi * r ;
+    cout << p ;
+    return 0 ;
+}
