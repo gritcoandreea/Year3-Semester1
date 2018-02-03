@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andreeagritco.exam26.ui.MainActivity">
+
+    <Button
+        android:id="@+id/ideasButton"
+        android:layout_width="109dp"
+        android:layout_height="63dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/projectsButton"
+        android:layout_marginLeft="67dp"
+        android:layout_marginStart="67dp"
+        android:text="@string/ideas_list"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <Button
+        android:id="@+id/projectsButton"
+        android:layout_width="135dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="133dp"
+        android:layout_toEndOf="@+id/ideasButton"
+        android:layout_toRightOf="@+id/ideasButton"
+        android:text="@string/projects_list"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="178dp" />
+</RelativeLayout>
